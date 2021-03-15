@@ -453,6 +453,10 @@ body {
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
+  .mainheadings{
+    top: 38%;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
