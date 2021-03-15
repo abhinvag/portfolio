@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -420,7 +421,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .logo a {
-    padding-left: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
   }
 
   .first-div {
@@ -463,8 +465,8 @@ body {
   .hamburger {
     position: absolute;
     cursor: pointer;
-    right: 5%;
-    top: 28px;
+    right: 9%;
+    top: 37px;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -522,12 +524,12 @@ body {
   }
 
   .heading1 {
-    font-size: 45px;
+    font-size: 35px;
     padding-left: 10px;
   }
 
   .heading2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .second-div {
@@ -537,13 +539,13 @@ body {
   .second-div h2 {
     padding-top: 35px;
     font-size: 30px;
-    padding-left: 125px;
+    padding-left: 69px;
   }
 
   .carousel-container {
     text-align: center;
-    width: 40%;
-    margin-left: 150px;
+    width: 52%;
+    margin-left: 88px;
     margin-top: 90px;
     border: none;
     justify-content: center;
@@ -571,7 +573,7 @@ body {
   }
 
   .tech {
-    right: 130px;
+    right: 64px;
     top: 600px;
   }
 
@@ -602,7 +604,7 @@ body {
   .third-div h2 {
     padding-top: 35px;
     font-size: 30px;
-    padding-left: 175px;
+    padding-left: 120px;
   }
 
   .skill-section h3 {
@@ -636,8 +638,8 @@ body {
   }
   
   .fourth-div h2 {
-    padding-left: 50px;
-    font-size: 28px;
+    padding-left: 23px;
+    font-size: 24px;
     padding-top: 30px;
   }
   
@@ -652,9 +654,9 @@ body {
   .social-mobile{
     position: absolute;
     display: flex;
-    font-size: 35px;
-    right: 43%;
-    top: 60%;
+    font-size: 31px;
+    right: 38%;
+    top: 55%;
     text-align: center;
   }
 
