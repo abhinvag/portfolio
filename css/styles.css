@@ -538,9 +538,15 @@ body {
     margin-bottom: 100px;
   }
 
+  .typewriter{
+    margin: 5px auto;
+  }
+
   .heading1 {
+    position: absolute;
     font-size: 35px;
-    padding-left: 10px;
+    top: 45%;
+    left: 0.5%;
   }
 
   .heading2 {
