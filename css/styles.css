@@ -596,7 +596,7 @@ body {
   }
 
   .third-div {
-    height: 140vh;
+    height: 130vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
