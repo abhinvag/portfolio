@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="first-div">
+        <div class="navbar">
+            <h1 class="logo"><a href="#">Portfolio</a></h1>
+            <div class="hamburger">
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="typewriter">
+            <h1 class="heading1">Hey, I'm Abhinav.</h1>
+        </div>
+        <div class="typewriter">
+            <h2 class="heading2">A web developer.</h2>
+        </div>
+    </div>
+    <div class="second-div" id="projects">
+        <h2> Featured Project </h2>
+        <div class="carousel-container">
+            <i class="fas fa-arrow-left" id="prevButton"></i>
+            <i class="fas fa-arrow-right" id="nextButton"></i>
+            <div class="carousel-slide">
+                <img src="./images/admin.png" alt="" id="lastClone">
+                <img src="./images/homepage.png" alt="">
+                <img src="./images/cart.png" alt="">
+                <img src="./images/login.png" alt="">
+                <img src="./images/adminLogin.png" alt="">
+                <img src="./images/admin.png" alt="">
+                <img src="./images/homepage.png" alt="" id="firstClone">
+            </div>
+            <div class="carousel-slide-mobile">
+                <img src="./images/admin-mobile.jpeg" alt="" id="lastClone">
+                <img  src="./images/homepage-mobile.jpeg" alt="">
+                <img src="./images/cart-mobile.jpeg" alt="">
+                <img  src="./images/login-mobile.jpeg" alt="">
+                <img  src="./images/adminLogin-mobile.jpeg" alt="">
+                <img  src="./images/admin-mobile.jpeg" alt="">
+                <img src="./images/homepage-mobile.jpeg" alt="" id="firstClone">
+            </div>
+        </div>
+        <div class="tech">
+            <p class="p1">Technologies used</p>
+            <p>Reactjs</p>
+            <p>Nodejs</p>
+            <p>Express </p>
+            <p>MongoDB</p>
+            <a class="visit-site" target="_blank" href="https://ecom-webapp.herokuapp.com/">Visit Site</a>
+        </div>
+    </div>
+    <div id="skills" class="third-div">
+        <h2> My Skills </h2>
+        <div class="skill-section">
+            <h3>Web development</h3>
+            <div class="web-dev">
+                <h4>Reactjs</h4>
+                <h4>Nodejs</h4>
+                <h4>Express</h4>
+                <h4>MongoDB</h4>
+                <h4>MySQL</h4>
+                <h4>Git</h4>
+                <h4>Github</h4>
+            </div>
+            <a target="_blank" class="cert" href="http://ude.my/UC-cb73cf2d-fdaf-41fb-9939-541f1df39487">Certification</a>
+            <h3>App development</h3>
+            <h4>React Native</h4>
+            <a target="_blank" class="cert" href="#">Certification</a>
+        </div>
+    </div>
+    <div class="fourth-div" id="contact">
+        <h2>Would like to work together ?</h2>
+        <a class="connect" target="_blank" href="https://www.linkedin.com/in/nav-abhi/">Connect</a>
+        <div class="social">
+            <h8 class="email"><i class="fas fa-envelope"></i>19ucs254@lnmiit.ac.in</h8>
+            <a href="https://github.com/wraith-0" target="_blank" class="github"><i class="fab fa-github"></i>Github</a>
+            <a href="https://www.linkedin.com/in/nav-abhi/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
+        </div>
+        <div class="social-mobile">
+            <a href="https://github.com/wraith-0" target="_blank" class="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/nav-abhi/" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+    <div class="fifth-div">
+        <h6>&copy; Abhinav Agarwal. All rights reserved</h6>
+    </div>
+   
+    <script src="app.js"></script>
+</body>
+
+</html>
