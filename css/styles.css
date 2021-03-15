@@ -114,6 +114,14 @@ body {
   flex-direction: column;
 }
 
+.mainheadings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
 .typewriter {
   display: inline-block;
   margin: 20px auto;
