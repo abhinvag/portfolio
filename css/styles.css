@@ -455,7 +455,10 @@ body {
 
   .mainheadings{
     top: 38%;
+    z-index: -1;
   }
+
+
 
   .nav-links {
     position: fixed;
