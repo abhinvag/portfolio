@@ -87,6 +87,7 @@
 .next-btn {
   color: grey;
   margin-top: 35px;
+  margin-bottom: 39px;
 }
 
 .next-btn:hover {
@@ -102,8 +103,8 @@
   }
 
   .carousel-div {
-    width: 330px;
-    margin-bottom: 4%;
+    width: 90vw;
+    margin-bottom: 7%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -128,7 +129,8 @@
   }
 
   .next-btn {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 15px;
+    margin-bottom: 0;
   }
 }
