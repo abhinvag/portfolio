@@ -1,0 +1,22 @@
+.bg-dark {
+  background-color: black !important;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-brand::after {
+  background: none repeat scroll 0 0 transparent;
+  content: "";
+  display: block;
+  height: 8px;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.navbar-brand:hover::after {
+  width: 100%;
+}

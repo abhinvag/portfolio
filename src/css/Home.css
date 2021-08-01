@@ -1,0 +1,83 @@
+.home-div {
+  background-color: black;
+  height: 81.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.typewriter {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.heading1 {
+  color: #fff;
+  font-size: 60px;
+  overflow: hidden;
+  border-right: 0.1em solid transparent;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 2s steps(20, end) 1s forwards,
+    blink-caret 0.8s step-end 0s 4;
+  text-align: center;
+  width: 0;
+}
+
+.heading2 {
+  color: #c0c0c0;
+  font-size: 35px;
+  overflow: hidden;
+  border-right: 0.1em solid transparent;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  animation: typing 2s steps(20, end) 3.9s forwards,
+    blink-caret 0.8s step-end 3.5s infinite;
+  text-align: center;
+  width: 0;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading1 {
+    font-size: 30px;
+  }
+
+  .heading2 {
+    font-size: 17px;
+  }
+
+  .typewriter {
+    margin: 15px auto;
+  }
+}
