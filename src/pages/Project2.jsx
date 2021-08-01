@@ -15,7 +15,7 @@ function Project2() {
             <Project 
                 name="Online Shop"
                 images={[HomePage, Login, Cart, AdminLogin, Admin, Inventory, Bill]}
-                techUsed={["React", "NodeJs", "ExpressJs", "MongoDB"]}
+                techUsed={["React", "NodeJs", "ExpressJs", "MongoDB", "FireBase"]}
                 visit="https://ecom-webapp.herokuapp.com/"
                 src="https://github.com/wraith-0/ecom-webapp"
                 demo="https://www.youtube.com/watch?v=uRsPq_KvCio&ab_channel=AbhinavAgarwal"
