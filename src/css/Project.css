@@ -118,7 +118,7 @@
   }
 
   .btn-div {
-    margin-top: 25px;
+    margin-top: 7%;
   }
 
   .btn:link,
@@ -130,7 +130,6 @@
 
   .next-btn {
     font-size: 0.9rem;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 7%;
   }
 }
