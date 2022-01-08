@@ -1,11 +1,15 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Project1 from "./pages/Project1"
-import Project2 from './pages/Project2';
-import "./css/App.css"
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './pages/Home/Home';
+import Projects from './pages/Projects/Projects';
+import DsaSolutions from "./pages/DSASolutions/Project"
+import OnlineShop from './pages/OnlineShop/Project';
+import MyCovid from './pages/MyCovid/Project';
+import cores from './pages/Course-Registration/Project'
+
+import "./App.css"
 
 function App() {
   return (
@@ -14,8 +18,11 @@ function App() {
             <Router>
                 <Header />
                 <Route path="/" exact component={Home} />
-                <Route path="/project1" component={Project1} />
-                <Route path="/project2" component={Project2} />
+                <Route path="/projects" component={Projects} />
+                <Route path="/dsasolutions" component={DsaSolutions} />
+                <Route path="/onlineshop" component={OnlineShop} />
+                <Route path="/mycovid" component={MyCovid} />
+                <Route path="/cores" component={cores} />
                 <Footer />
             </Router>  
         </div>

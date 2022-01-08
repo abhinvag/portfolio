@@ -1,6 +1,6 @@
 import React from 'react'
 import {Navbar, Container, Nav} from 'react-bootstrap'
-import "../css/Header.css"
+import "./Header.css"
 
 function Header() {
     return (
@@ -8,7 +8,7 @@ function Header() {
             <Container>
                 <Navbar.Brand href="/">Navabhi</Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="/project1">Projects</Nav.Link>
+                    <Nav.Link href="/projects">Projects</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

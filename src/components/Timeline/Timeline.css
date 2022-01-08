@@ -1,0 +1,46 @@
+.timeline-div {
+  border-color: white;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+.timeline-div-last {
+  border-color: white;
+  padding-left: 20px;
+}
+
+.timeline-div-name {
+  color: white;
+  text-decoration: none;
+  font-size: 35px;
+}
+
+.timeline-div-name:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.timeline-div-time {
+  color: rgba(255, 255, 255, 0.603);
+  margin-bottom: 0;
+}
+
+.timeline-div-des {
+  color: rgba(255, 255, 255, 0.603);
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .timeline-div-name {
+    font-size: 25px;
+  }
+  .timeline-div-time {
+    font-size: 13px;
+  }
+  .timeline-div-des {
+    font-size: 13px;
+  }
+  .timeline-div-des {
+    width: 80%;
+  }
+}

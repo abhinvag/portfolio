@@ -1,5 +1,4 @@
 .footer-div {
-  background-color: black;
   height: 10vh;
   display: flex;
   flex-direction: row;
@@ -11,8 +10,12 @@
   color: white;
   margin-right: 16px;
   font-size: 1.3rem;
+  margin-bottom: 4px;
 }
 
-.icon:hover {
-  font-size: 1.5rem;
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
 }

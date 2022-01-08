@@ -20,3 +20,7 @@
 .navbar-brand:hover::after {
   width: 100%;
 }
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}

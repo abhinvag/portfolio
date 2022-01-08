@@ -1,10 +1,10 @@
 import React from 'react'
 import {Carousel, Container, Row, Col} from "react-bootstrap"
-import "../css/Project.css"
+import "./Template.css"
 
-function Project(props) {
+function Template(props) {
     return (
-        <Container>
+        <Container className='template-div'>
             <Row className="heading-div">
                 <h1>{props.name}</h1>
             </Row>
@@ -37,20 +37,10 @@ function Project(props) {
             </Row>
             <Row className="btn-div">
                 <a className="btn" target="_blank" rel="noreferrer" href={props.src}>Source Code</a>
-                <a className="btn" target="_blank" rel="noreferrer" href={props.visit}>Visit</a>
-                <a className="btn" target="_blank" rel="noreferrer" href={props.demo}>Demo Video</a>
+                <a className="btn" target="_blank" rel="noreferrer" href={props.visit}>Live Link</a>
             </Row>
-            {(props.last === "true") ? (
-                <Row className="next-btn-div">
-                    <a className="next-btn" href="/project1"><i class="fas fa-arrow-left"></i> Prev</a>
-                </Row>
-            ):(
-                <Row className="next-btn-div">
-                    <a className="next-btn" href="/project2">Next <i class="fas fa-arrow-right"></i></a>
-                </Row>
-            )}
         </Container>
     )
 }
 
-export default Project
+export default Template
