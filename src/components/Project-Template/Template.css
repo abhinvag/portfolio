@@ -1,5 +1,8 @@
 .template-div {
   min-height: 81.3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .heading-div {
@@ -114,7 +117,7 @@
   .btn:link,
   :visited {
     padding: 10px 20px;
-    font-size: 10px;
+    font-size: 15px;
     margin-right: 2%;
   }
 }
