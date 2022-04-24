@@ -8,6 +8,8 @@ import DsaSolutions from "./pages/DSASolutions/Project"
 import OnlineShop from './pages/OnlineShop/Project';
 import MyCovid from './pages/MyCovid/Project';
 import cores from './pages/Course-Registration/Project'
+import Zura from "./pages/Zura/Zura";
+import CompileAbhi from './pages/CompileAbhi/compileAbhi';
 
 import "./App.css"
 
@@ -23,6 +25,8 @@ function App() {
                 <Route path="/onlineshop" component={OnlineShop} />
                 <Route path="/mycovid" component={MyCovid} />
                 <Route path="/cores" component={cores} />
+                <Route path="/zura" component={Zura} />
+                <Route path="/compileAbhi" component={CompileAbhi} />
                 <Footer />
             </Router>  
         </div>

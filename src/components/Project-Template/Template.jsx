@@ -1,5 +1,5 @@
 import React from 'react'
-import {Carousel, Container, Row, Col} from "react-bootstrap"
+import { Carousel, Container, Row, Col } from "react-bootstrap"
 import "./Template.css"
 
 function Template(props) {
@@ -12,9 +12,10 @@ function Template(props) {
                 <Col xs="12" lg="6" className="carousels-div">
                     <Carousel className="carousel-div">
                         {props.images.map((value) => {
-                            return(
+                            return (
                                 <Carousel.Item>
                                     <img
+                                        style={{ "height": "35vh" }}
                                         className="d-block w-100"
                                         src={value}
                                         alt="First slide"
@@ -28,7 +29,7 @@ function Template(props) {
                     <div>
                         <h2 className="tu-heading">Tech Used</h2>
                         {props.techUsed.map((value) => {
-                            return(
+                            return (
                                 <h3 className="tu-item">{value}</h3>
                             )
                         })}
